@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+<script type = javascript>
+for(var n=0; n<1000;n++){
+	if(n === 1){
+		return false;
+	}
+	if(n === 2){
+		return true;
+	}
+	for(var x = 2; x < n; x++){
+	if(n%x === 0){
+		return false;
+		}
+	}
+	return true;
+	}
+</script>
+</body>
+</html>
